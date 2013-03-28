@@ -3,6 +3,7 @@ Syringe
 
 A Dependency Injection Builder and Container (PHP 5.2 version)
 
+```php
 <?php
 define('SYRINGE_PATH', '/yourpath/');
 
@@ -88,3 +89,4 @@ $director->setConfig($meta)
          ->setSharedStorage($sharedStorage);
 
 $dbAdapter = $director->build('Syringe_Examples_Director_DbAdapter');
+```
