@@ -1,0 +1,4 @@
+<?php
+interface Syringe_Meta_Injector_Argument_CollectionInterface
+extends Syringe_Library_Collection_Interface
+{}

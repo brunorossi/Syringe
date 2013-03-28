@@ -1,0 +1,4 @@
+<?php
+class Syringe_Examples_FactoryMethod_ComplexProduct 
+extends Syringe_Examples_FactoryMethod_ProductAbstract 
+{}
